@@ -1,9 +1,9 @@
-import Home from '@/pages/home';
+import { lazy } from 'react';
 
 const routes = [
   {
     path: '/',
-    element: Home,
+    element: lazy(() => import('@/pages/home')),
   },
 ];
 
