@@ -4,7 +4,7 @@ import Home from '@/pages/home';
 
 const App = () => (
   <Suspense fallback={<Loading />}>
-    <main className="container bg-body">
+    <main className="fluid-container bg-body">
       <Home />
     </main>
   </Suspense>

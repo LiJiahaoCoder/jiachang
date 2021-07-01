@@ -105,7 +105,7 @@ const config = {
         ],
       },
       {
-        test: /\.svg$/,
+        test: /\.(svg|glsl)$/,
         issuer: /\.(js|ts)x?$/,
         use: [
           {
