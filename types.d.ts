@@ -3,7 +3,11 @@ declare module '*.less' {
   export default classNames;
 }
 
-declare module '*.glsl' {
+declare module '*.vs' {
+  export default '' as string;
+}
+
+declare module '*.fs' {
   export default '' as string;
 }
 

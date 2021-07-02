@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { createWebGLProgram, setWebGLProgram } from '@/utils/webgl';
-import fireworkVertexShaderSource from '@/shaders/firework-vertex.glsl';
-import fireworkFragmentShaderSource from '@/shaders/firework-fragment.glsl';
+import fireworkVertexShaderSource from '@/shaders/firework.vs';
+import fireworkFragmentShaderSource from '@/shaders/firework.fs';
 
 const Home = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
